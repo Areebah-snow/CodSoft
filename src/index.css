@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Merriweather:wght@300;400;900&family=Pacifico&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Inter';
+  
+}
+html{
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  
+  padding-inline: 30px ;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position:  sticky;
+  top:0;
+  background-color: white;
+  width: 100%;
+}
+
+.navbar h1{
+  color: rgb(117, 16, 55);
+  font-family: 'Pacifico';
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: black;
+  padding-inline: 10px;
+  transition: all .2s linear;
+  padding: 10px 8px;
+  border-radius: 10px;
+  margin-left: 10px;
+ 
+}
+
+.nav-links a:hover{
+  background-color:rgb(117, 16, 55);
+  color: white;
+
+} 
+
+.header{
+  margin-top: 60px;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+}
+.headerTitles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+}
+.headerTitleSm{
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+.headerTitleLg{
+  position: absolute;
+  top: 10%;
+  font-size: 100px;
+}
+.headerImg {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  margin-top: 20px;
+  border-radius: 40px;
+}
+
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  color: rgb(117, 16, 55);
+  margin-bottom:8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-details h2{
+  font-size: 20px;
+  color: rgb(117, 16, 55);
+  margin-bottom: 10px;
+}
+
+.blog-details div{
+  margin: 20px 0;
+}
+.blog-details button{
+  background: rgb(117, 16, 55);
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* create */
+
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: rgb(117, 16, 55);
+  margin-bottom: 30px;
+}
+
+.create input,.create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button{
+  background: rgb(117, 16, 55);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+

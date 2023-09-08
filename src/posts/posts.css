@@ -1,0 +1,53 @@
+
+
+.posts-container{
+    margin: 30px;
+}
+
+.posts{
+    margin-block: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+  
+   
+}
+
+
+.post{
+    margin-block: 10px;
+}
+.post-image img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+
+.post-title a{
+    color: black;
+}
+
+.post-details{
+    margin-block: 5px;
+}
+.date{
+    display: inline-block;
+    color: #444;
+}
+
+.category{
+    color: white;
+}
+.travel{
+    background-color: tomato;
+    padding: 3px 10px;
+    margin-inline: 10px;
+    border-radius: 5px;
+
+}
+
+.author{
+    font-size: 14px;
+    margin-top: 5px;
+}
