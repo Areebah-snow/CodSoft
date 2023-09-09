@@ -7,7 +7,7 @@
 .posts{
     margin-block: 20px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     gap: 30px;
   
    
@@ -46,7 +46,18 @@
     border-radius: 5px;
 
 }
+.post-desc{
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 
+}
 .author{
     font-size: 14px;
     margin-top: 5px;

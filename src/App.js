@@ -5,7 +5,9 @@ import Create from './Create';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
 import Homepage from './pages/home/Homepage';
-
+import Posts from './posts/Posts';
+import SinglePage from './pages/singlePage/SinglePage';
+import Write from './pages/write/Write';
 
 function App() {
   
@@ -13,7 +15,12 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Homepage />
+        {/* <Homepage /> */}
+        {/* <SinglePage/> */}
+        <Write/>
+
+
+       
         <div className="content">
          {/* <Switch>
             <Route exact path="/"><Home/></Route>

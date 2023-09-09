@@ -1,0 +1,76 @@
+.singlePostContainer{
+    padding: 20px;
+    padding-right: 0;
+}
+
+
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.singlePostTitle{
+    margin-block: 10px;
+}
+
+.editContainer{
+    float: right;
+}
+
+.singlePostDetails{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 14px;
+    color: rgba(78, 77, 78, 0.9);
+    margin-bottom: 30px;
+}
+
+.singlePostDesc{
+    color: #333333;
+  
+    line-height: 40px;
+
+}
+
+.singlePostDesc::first-letter{
+    
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.editContainer button{
+    background-color: black;
+    color: white;
+    padding: 8px 10px; 
+    margin-left: 10px ;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+button.edit{
+    background-color:rgb(117, 16, 55);
+    transition: all .3s linear;
+
+}
+
+button.edit:hover{
+    background-color:rgba(117, 16, 55, .8);
+
+}
+button.delete{
+    background-color: rgb(236, 42, 42);
+    transition: all .3s linear;
+}
+
+button.delete:hover{
+    background-color: rgba(236, 42, 42, .8);
+}
+
+
+
