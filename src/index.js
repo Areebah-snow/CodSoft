@@ -11,3 +11,6 @@ root.render(
     
   </React.StrictMode>
 );
+
+
+// dbURL= 'mongodb+srv://Areebah:Areebah1234@myblogs.3wavrzo.mongodb.net/?retryWrites=true&w=majority'
