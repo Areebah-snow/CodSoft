@@ -1,0 +1,25 @@
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+}
+
+.settingsProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateProfile{
+    font-size: 30;;
+    margin-bottom: 20px;
+    color: coral;
+}
+
+.settingsDeleteProfile{
+    color: red;
+    font-size: 12px;
+
+}
