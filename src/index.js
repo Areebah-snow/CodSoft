@@ -13,4 +13,3 @@ root.render(
 );
 
 
-// dbURL= 'mongodb+srv://Areebah:Areebah1234@myblogs.3wavrzo.mongodb.net/?retryWrites=true&w=majority'
