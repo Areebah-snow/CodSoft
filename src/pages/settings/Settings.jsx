@@ -9,7 +9,7 @@ const Settings = () => {
                     <span className="settingsUpdateProfile">
                      Update Your Account
                     </span>
-                    <span className="settingsUpdateProfile">
+                    <span className="settingsDeleteProfile">
                     Delete Account
                     </span>
 
