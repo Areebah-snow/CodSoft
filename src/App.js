@@ -8,6 +8,7 @@ import Homepage from './pages/home/Homepage';
 import Posts from './posts/Posts';
 import SinglePage from './pages/singlePage/SinglePage';
 import Write from './pages/write/Write';
+import Settings from './pages/settings/Settings';
 
 function App() {
   
@@ -17,8 +18,8 @@ function App() {
         <Navbar />
         {/* <Homepage /> */}
         {/* <SinglePage/> */}
-        <Write/>
-
+        {/* <Write/> */}
+        <Settings/>
 
        
         <div className="content">
