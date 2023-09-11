@@ -9,28 +9,44 @@ import Posts from './posts/Posts';
 import SinglePage from './pages/singlePage/SinglePage';
 import Write from './pages/write/Write';
 import Settings from './pages/settings/Settings';
+import Login from './pages/login/Login';
+import SignUp from './pages/signup/SignUp';
+import { WriteError } from 'mongodb';
+import SinglePost from './singlePost/SinglePost';
 
 function App() {
   
   return (
     <Router>
-      <div className="App">
+     
         <Navbar />
-        {/* <Homepage /> */}
-        {/* <SinglePage/> */}
-        {/* <Write/> */}
-        <Settings/>
-
+        
+    
        
-        <div className="content">
-         {/* <Switch>
-            <Route exact path="/"><Home/></Route>
-            <Route path="/create"><Create/></Route>
-            <Route path="/blogs/:id"><BlogDetails /></Route>
+       
+         <Switch>
+            <Route exact path="/">
+              <Homepage/>
+            </Route>
+            <Route path="/signup">
+              <SignUp/>
+            </Route>
+            <Route path="/login">
+              <Login/>
+            </Route>
+            <Route path="/settings">
+              <Settings/>
+            </Route>
+            <Route path="/write">
+              <Write/>
+            </Route>
+
+            
+            {/* <Route path="/post/:PostId"><SinglePost /></Route> */}
             <Route path="*"><NotFound /></Route>
-         </Switch> */}
-        </div>
-    </div>
+         </Switch>
+     
+
     </Router>
  
   );

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.login{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("c:\Users\mudat\Desktop\BlogApp\server\public\images\loginBG.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    
+    backdrop-filter: blur(3px);
+   
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh
+   
+ 
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 700px;
+    min-width: 500px;
+    min-height: 400px;
+    max-height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 10px;
+    border-radius: 30px;
+    color: white;
+  
+    
+}
+
+h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: light;
+}
+
+.invalid{
+    font-size: 12px;
+    margin: 10px 4px;
+    font-weight: bold;
+    color: red;
+    display: none;
+}
+form{
+    margin-block: 20px;
+}
+form div{
+    margin: 20px 5px ;
+}
+label{
+    display: block;
+    font-size: 15px;
+    margin-block: 8px;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+.loginlink{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background-color:rgba(12,15, 150, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    transition: .2s linear;
+
+}
+.loginlink:hover{
+    background-color: rgba(12,15, 150, 0.7);
+}
+
+.sign-up{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.sign-up p{
+    display: inline-block;
+   
+}
+
+.sign-up a{
+    color: rgb(152, 126, 248);
+    margin-left: 5px;
+}
+
