@@ -1,19 +1,22 @@
 .settings{
-    display: flex;
+    margin-top: 30px;
+    
 }
 
 .settingsWrapper{
-    flex: 9;
+   
 }
 
 .settingsProfile{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .settingsUpdateProfile{
-    font-size: 30;;
+    font-size: 30px;
     margin-bottom: 20px;
     color: rgb(209, 76, 120);
 }
@@ -21,5 +24,65 @@
 .settingsDeleteProfile{
     color: red;
     font-size: 12px;
+    cursor: pointer;
+   
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.settingsProfilePicture{
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+}
+
+.settingsProfilePicture > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsProfileIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(209, 76, 120);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.settingsForm > input{
+    color: grey;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+   
+}
+
+.settingsButton{
+    width: 150px;
+    align-self: center;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    background-color: rgb(209, 76, 120);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
 
 }

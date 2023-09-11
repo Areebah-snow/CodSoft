@@ -12,8 +12,8 @@ const Settings = () => {
                     <span className="settingsDeleteProfile">
                     Delete Account
                     </span>
-
                 </div>
+
                 <form action="" className="settingsForm">
                     <label htmlFor="">Profile Picture</label>
                     <div className="settingsProfilePicture">
@@ -22,7 +22,7 @@ const Settings = () => {
                         alt="" />
 
                         <label htmlFor="FileInput">
-                        <i class="fa-regular fa-circle-user SettingsProfileIcon"></i>
+                        <i class="fa-regular fa-circle-user settingsProfileIcon"></i>
                         </label>
                         <input type="file" id="fileInput" style={{display:"none"}}/>
                     </div>
@@ -35,6 +35,8 @@ const Settings = () => {
 
                     <button className="settingsButton">Update</button>
              </form>
+
+             
             </div>
         </div>
     )
