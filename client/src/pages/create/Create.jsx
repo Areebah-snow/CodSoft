@@ -1,5 +1,5 @@
 import React from 'react';
-import './write.css'
+import './create.css'
 
 const Write = () => {
     return (

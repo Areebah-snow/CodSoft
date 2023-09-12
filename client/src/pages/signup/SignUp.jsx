@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import '../login/login.css'
 
 const SignUp = () => {
     return (
         <div className="login">
-  <div class="main-container">
+        <div className="main-container">
         <h3>Create Account</h3>
         <form action="" onsubmit="Submit" method="POST">
             <div>
@@ -33,11 +34,11 @@ const SignUp = () => {
                 <input type="password">
             </div> --> */}
         </form>
-        <a class="loginlink" href="#">Sign Up</a>
+        <a className="loginlink" href="#">Sign Up</a>
 
-        <div class="sign-up">
+        <div className="sign-up">
             <p>Already have an account?</p>
-            <a href="login.html">Login</a>
+            <Link to="/login">Login </Link>
     
         </div>
        

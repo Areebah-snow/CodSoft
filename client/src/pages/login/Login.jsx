@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './login.css'
 
 const Login = () => {
@@ -23,7 +24,7 @@ const Login = () => {
 
             <div className="sign-up">
                 <p>Don't have an account?</p>
-                <a href="signup.ejs">Sign Up</a>
+                <Link className='redirect' to="/signup">Sign Up</Link>
 
             </div>
         
