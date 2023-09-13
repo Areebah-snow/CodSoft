@@ -31,7 +31,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+*node_modules/
 
 # Optional npm cache directory
 .npm
@@ -71,3 +71,5 @@ Thumbs.db
 
 # Visual Studio Code directories
 .vscode/
+
+**/node_modules
